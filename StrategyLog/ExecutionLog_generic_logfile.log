@@ -1,3 +1,707 @@
 
 -----------------------------New start-----------------------
 
+
+	-------------date : 2021-12-01-------------
+
+
+	stock_sym : ADANIPORTS
+
+	yesterday Close Price : 683.85
+
+	TDB yesterday Close Price : 702.6
+
+	SMA_30 : 737.3233333333333
+
+	-------------next stock_sym-------------
+
+
+	stock_sym : ASIANPAINT
+
+	yesterday Close Price : 3143.65
+
+	TDB yesterday Close Price : 3144.3
+
+	SMA_30 : 3128.921666666667
+
+	-------------next stock_sym-------------
+
+
+	-------------all stock_sym parsed-------------
+
+
+	-------------date : 2021-12-02-------------
+
+
+	stock_sym : ADANIPORTS
+
+	yesterday Close Price : 707.95
+
+	TDB yesterday Close Price : 683.85
+
+	SMA_30 : 733.9033333333333
+
+	-------------next stock_sym-------------
+
+
+	stock_sym : ASIANPAINT
+
+	yesterday Close Price : 3138.15
+
+	TDB yesterday Close Price : 3143.65
+
+	SMA_30 : 3125.4766666666665
+
+	-------------next stock_sym-------------
+
+
+	-------------all stock_sym parsed-------------
+
+
+	-------------date : 2021-12-03-------------
+
+
+	stock_sym : ADANIPORTS
+
+	yesterday Close Price : 739.1
+
+	TDB yesterday Close Price : 707.95
+
+	SMA_30 : 732.1316666666665
+
+	action : enter buy order : 746.5
+
+	-------------next stock_sym-------------
+
+
+	stock_sym : ASIANPAINT
+
+	yesterday Close Price : 3180.6
+
+	TDB yesterday Close Price : 3138.15
+
+	SMA_30 : 3125.3716666666664
+
+	-------------next stock_sym-------------
+
+
+	-------------all stock_sym parsed-------------
+
+	EOD openPnl : 
+	                  Key      Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus Pnl
+	0 2021-12-03 09:20:00  ADANIPORTS       746.5      734.0     737.45      746.5        1              1   0
+
+	-------------date : 2021-12-06-------------
+
+
+	stock_sym : ADANIPORTS
+
+	yesterday Close Price : 737.45
+
+	TDB yesterday Close Price : 739.1
+
+	SMA_30 : 730.2166666666667
+
+	-------------next stock_sym-------------
+
+
+	stock_sym : ASIANPAINT
+
+	yesterday Close Price : 3110.45
+
+	TDB yesterday Close Price : 3180.6
+
+	SMA_30 : 3123.4
+
+	action : enter sell order : 3028.25
+
+	-------------next stock_sym-------------
+
+
+	-------------all stock_sym parsed-------------
+
+	action : exiting buy order ADANIPORTS
+	EOD openPnl : 
+	                  Key      Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus Pnl
+	1 2021-12-06 09:20:00  ASIANPAINT     3028.25    3028.25     3038.3     3115.0        1             -1   0
+
+	-------------date : 2021-12-07-------------
+
+
+	stock_sym : ADANIPORTS
+
+	yesterday Close Price : 723.45
+
+	TDB yesterday Close Price : 737.45
+
+	SMA_30 : 728.3533333333331
+
+	action : enter sell order : 725.8
+
+	-------------next stock_sym-------------
+
+
+	stock_sym : ASIANPAINT
+
+	yesterday Close Price : 3038.3
+
+	TDB yesterday Close Price : 3110.45
+
+	SMA_30 : 3124.61
+
+	-------------next stock_sym-------------
+
+
+	-------------all stock_sym parsed-------------
+
+	action : exiting sell order ADANIPORTS
+
+	-------------date : 2021-12-08-------------
+
+
+	stock_sym : ADANIPORTS
+
+	yesterday Close Price : 744.7
+
+	TDB yesterday Close Price : 723.45
+
+	SMA_30 : 727.7833333333333
+
+	action : enter buy order : 764.4
+
+	-------------next stock_sym-------------
+
+
+	stock_sym : ASIANPAINT
+
+	yesterday Close Price : 3030.35
+
+	TDB yesterday Close Price : 3038.3
+
+	SMA_30 : 3126.2083333333335
+
+	-------------next stock_sym-------------
+
+
+	-------------all stock_sym parsed-------------
+
+	EOD openPnl : 
+	                  Key      Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus Pnl
+	0 2021-12-08 09:20:00  ADANIPORTS       764.4      748.2      761.4      764.4        1              1   0
+
+	-------------date : 2021-12-09-------------
+
+
+	stock_sym : ADANIPORTS
+
+	yesterday Close Price : 761.4
+
+	TDB yesterday Close Price : 744.7
+
+	SMA_30 : 728.095
+
+	-------------next stock_sym-------------
+
+
+	stock_sym : ASIANPAINT
+
+	yesterday Close Price : 3108.5
+
+	TDB yesterday Close Price : 3030.35
+
+	SMA_30 : 3132.556666666667
+
+	-------------next stock_sym-------------
+
+
+	-------------all stock_sym parsed-------------
+
+	EOD openPnl : 
+	                  Key      Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus  Pnl
+	0 2021-12-08 09:20:00  ADANIPORTS       764.4      760.0     769.75      775.8        1              1 -3.0
+
+	-------------date : 2021-12-10-------------
+
+
+	stock_sym : ADANIPORTS
+
+	yesterday Close Price : 769.75
+
+	TDB yesterday Close Price : 761.4
+
+	SMA_30 : 728.7566666666667
+
+	-------------next stock_sym-------------
+
+
+	stock_sym : ASIANPAINT
+
+	yesterday Close Price : 3178.7
+
+	TDB yesterday Close Price : 3108.5
+
+	SMA_30 : 3139.520000000001
+
+	action : enter buy order : 3292.0
+
+	-------------next stock_sym-------------
+
+
+	-------------all stock_sym parsed-------------
+
+	EOD openPnl : 
+	                  Key      Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus   Pnl
+	0 2021-12-08 09:20:00  ADANIPORTS       764.4      763.0     767.70     794.95        1              1  5.35
+	1 2021-12-10 09:20:00  ASIANPAINT      3292.0     3178.7    3283.15    3292.00        1              1     0
+
+	-------------date : 2021-12-13-------------
+
+
+	stock_sym : ADANIPORTS
+
+	yesterday Close Price : 767.7
+
+	TDB yesterday Close Price : 769.75
+
+	SMA_30 : 729.4850000000001
+
+	-------------next stock_sym-------------
+
+
+	stock_sym : ASIANPAINT
+
+	yesterday Close Price : 3283.15
+
+	TDB yesterday Close Price : 3178.7
+
+	SMA_30 : 3145.803333333333
+
+	-------------next stock_sym-------------
+
+
+	-------------all stock_sym parsed-------------
+
+	EOD openPnl : 
+	                  Key      Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus   Pnl
+	0 2021-12-08 09:20:00  ADANIPORTS       764.4     750.10     758.45      778.8        1              1   3.3
+	1 2021-12-10 09:20:00  ASIANPAINT      3292.0    3270.95    3279.85     3341.0        1              1 -8.85
+
+	-------------date : 2021-12-14-------------
+
+
+	stock_sym : ADANIPORTS
+
+	yesterday Close Price : 758.45
+
+	TDB yesterday Close Price : 767.7
+
+	SMA_30 : 731.83
+
+	-------------next stock_sym-------------
+
+
+	stock_sym : ASIANPAINT
+
+	yesterday Close Price : 3279.85
+
+	TDB yesterday Close Price : 3283.15
+
+	SMA_30 : 3151.255
+
+	-------------next stock_sym-------------
+
+
+	-------------all stock_sym parsed-------------
+
+	EOD openPnl : 
+	                  Key      Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus    Pnl
+	0 2021-12-08 09:20:00  ADANIPORTS       764.4      750.5      763.7      766.0        1              1  -5.95
+	1 2021-12-10 09:20:00  ASIANPAINT      3292.0     3249.0     3297.5     3305.0        1              1 -12.15
+
+	-------------date : 2021-12-15-------------
+
+
+	stock_sym : ADANIPORTS
+
+	yesterday Close Price : 763.7
+
+	TDB yesterday Close Price : 758.45
+
+	SMA_30 : 734.1866666666668
+
+	-------------next stock_sym-------------
+
+
+	stock_sym : ASIANPAINT
+
+	yesterday Close Price : 3297.5
+
+	TDB yesterday Close Price : 3279.85
+
+	SMA_30 : 3157.835
+
+	-------------next stock_sym-------------
+
+
+	-------------all stock_sym parsed-------------
+
+	EOD openPnl : 
+	                  Key      Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus  Pnl
+	0 2021-12-08 09:20:00  ADANIPORTS       764.4     742.95     745.50     766.65        1              1 -0.7
+	1 2021-12-10 09:20:00  ASIANPAINT      3292.0    3266.50    3301.95    3313.95        1              1  5.5
+
+	-------------date : 2021-12-16-------------
+
+
+	stock_sym : ADANIPORTS
+
+	yesterday Close Price : 745.5
+
+	TDB yesterday Close Price : 763.7
+
+	SMA_30 : 735.5566666666667
+
+	-------------next stock_sym-------------
+
+
+	stock_sym : ASIANPAINT
+
+	yesterday Close Price : 3301.95
+
+	TDB yesterday Close Price : 3297.5
+
+	SMA_30 : 3163.8399999999997
+
+	-------------next stock_sym-------------
+
+
+	-------------all stock_sym parsed-------------
+
+	EOD openPnl : 
+	                  Key      Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus   Pnl
+	0 2021-12-08 09:20:00  ADANIPORTS       764.4     739.35     745.15     756.45        1              1 -18.9
+	1 2021-12-10 09:20:00  ASIANPAINT      3292.0    3270.60    3298.60    3325.00        1              1  9.95
+
+	-------------date : 2021-12-17-------------
+
+
+	stock_sym : ADANIPORTS
+
+	yesterday Close Price : 745.15
+
+	TDB yesterday Close Price : 745.5
+
+	SMA_30 : 736.9833333333335
+
+	-------------next stock_sym-------------
+
+
+	stock_sym : ASIANPAINT
+
+	yesterday Close Price : 3298.6
+
+	TDB yesterday Close Price : 3301.95
+
+	SMA_30 : 3170.3483333333334
+
+	-------------next stock_sym-------------
+
+
+	-------------all stock_sym parsed-------------
+
+	action : exiting buy order ADANIPORTS
+	EOD openPnl : 
+	                  Key      Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus  Pnl
+	1 2021-12-10 09:20:00  ASIANPAINT      3292.0     3227.7     3243.7     3293.3        1              1  6.6
+
+	-------------date : 2021-12-20-------------
+
+
+	stock_sym : ADANIPORTS
+
+	yesterday Close Price : 723.95
+
+	TDB yesterday Close Price : 745.15
+
+	SMA_30 : 737.4750000000001
+
+	action : enter sell order : 685.5
+
+	-------------next stock_sym-------------
+
+
+	stock_sym : ASIANPAINT
+
+	yesterday Close Price : 3243.7
+
+	TDB yesterday Close Price : 3298.6
+
+	SMA_30 : 3172.7833333333333
+
+	-------------next stock_sym-------------
+
+
+	-------------all stock_sym parsed-------------
+
+	EOD openPnl : 
+	                  Key      Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus Pnl
+	1 2021-12-20 09:20:00  ADANIPORTS       685.5      685.5      701.7      717.0        1             -1   0
+
+	-------------date : 2021-12-21-------------
+
+
+	stock_sym : ADANIPORTS
+
+	yesterday Close Price : 701.7
+
+	TDB yesterday Close Price : 723.95
+
+	SMA_30 : 737.0750000000003
+
+	-------------next stock_sym-------------
+
+
+	stock_sym : ASIANPAINT
+
+	yesterday Close Price : 3239.45
+
+	TDB yesterday Close Price : 3243.7
+
+	SMA_30 : 3175.4566666666665
+
+	-------------next stock_sym-------------
+
+
+	-------------all stock_sym parsed-------------
+
+	EOD openPnl : 
+	                  Key      Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus   Pnl
+	1 2021-12-20 09:20:00  ADANIPORTS       685.5      701.7      725.6      728.0        1             -1 -16.2
+
+	-------------date : 2021-12-22-------------
+
+
+	stock_sym : ADANIPORTS
+
+	yesterday Close Price : 725.6
+
+	TDB yesterday Close Price : 701.7
+
+	SMA_30 : 736.9133333333335
+
+	-------------next stock_sym-------------
+
+
+	stock_sym : ASIANPAINT
+
+	yesterday Close Price : 3271.35
+
+	TDB yesterday Close Price : 3239.45
+
+	SMA_30 : 3179.9016666666666
+
+	-------------next stock_sym-------------
+
+
+	-------------all stock_sym parsed-------------
+
+	EOD openPnl : 
+	                  Key      Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus   Pnl
+	1 2021-12-20 09:20:00  ADANIPORTS       685.5     717.25     722.85      729.9        1             -1 -40.1
+
+	-------------date : 2021-12-23-------------
+
+
+	stock_sym : ADANIPORTS
+
+	yesterday Close Price : 722.85
+
+	TDB yesterday Close Price : 725.6
+
+	SMA_30 : 736.4300000000001
+
+	-------------next stock_sym-------------
+
+
+	stock_sym : ASIANPAINT
+
+	yesterday Close Price : 3280.1
+
+	TDB yesterday Close Price : 3271.35
+
+	SMA_30 : 3184.4
+
+	-------------next stock_sym-------------
+
+
+	-------------all stock_sym parsed-------------
+
+	action : exiting sell order ADANIPORTS
+
+	-------------date : 2021-12-24-------------
+
+
+	stock_sym : ADANIPORTS
+
+	yesterday Close Price : 731.3
+
+	TDB yesterday Close Price : 722.85
+
+	SMA_30 : 736.2099999999999
+
+	-------------next stock_sym-------------
+
+
+	stock_sym : ASIANPAINT
+
+	yesterday Close Price : 3267.9
+
+	TDB yesterday Close Price : 3280.1
+
+	SMA_30 : 3189.7200000000003
+
+	-------------next stock_sym-------------
+
+
+	-------------all stock_sym parsed-------------
+
+
+	-------------date : 2021-12-27-------------
+
+
+	stock_sym : ADANIPORTS
+
+	yesterday Close Price : 722.4
+
+	TDB yesterday Close Price : 731.3
+
+	SMA_30 : 735.7866666666667
+
+	-------------next stock_sym-------------
+
+
+	stock_sym : ASIANPAINT
+
+	yesterday Close Price : 3284.8
+
+	TDB yesterday Close Price : 3267.9
+
+	SMA_30 : 3197.096666666667
+
+	-------------next stock_sym-------------
+
+
+	-------------all stock_sym parsed-------------
+
+
+	-------------date : 2021-12-28-------------
+
+
+	stock_sym : ADANIPORTS
+
+	yesterday Close Price : 723.2
+
+	TDB yesterday Close Price : 722.4
+
+	SMA_30 : 734.8833333333333
+
+	-------------next stock_sym-------------
+
+
+	stock_sym : ASIANPAINT
+
+	yesterday Close Price : 3272.4
+
+	TDB yesterday Close Price : 3284.8
+
+	SMA_30 : 3202.08
+
+	-------------next stock_sym-------------
+
+
+	-------------all stock_sym parsed-------------
+
+
+	-------------date : 2021-12-29-------------
+
+
+	stock_sym : ADANIPORTS
+
+	yesterday Close Price : 729.25
+
+	TDB yesterday Close Price : 723.2
+
+	SMA_30 : 734.1983333333334
+
+	-------------next stock_sym-------------
+
+
+	stock_sym : ASIANPAINT
+
+	yesterday Close Price : 3368.2
+
+	TDB yesterday Close Price : 3272.4
+
+	SMA_30 : 3208.73
+
+	-------------next stock_sym-------------
+
+
+	-------------all stock_sym parsed-------------
+
+
+	-------------date : 2021-12-30-------------
+
+
+	stock_sym : ADANIPORTS
+
+	yesterday Close Price : 722.75
+
+	TDB yesterday Close Price : 729.25
+
+	SMA_30 : 733.4083333333333
+
+	-------------next stock_sym-------------
+
+
+	stock_sym : ASIANPAINT
+
+	yesterday Close Price : 3367.45
+
+	TDB yesterday Close Price : 3368.2
+
+	SMA_30 : 3215.9216666666666
+
+	-------------next stock_sym-------------
+
+
+	-------------all stock_sym parsed-------------
+
+
+	-------------date : 2021-12-31-------------
+
+
+	stock_sym : ADANIPORTS
+
+	yesterday Close Price : 724.25
+
+	TDB yesterday Close Price : 722.75
+
+	SMA_30 : 733.0316666666669
+
+	-------------next stock_sym-------------
+
+
+	stock_sym : ASIANPAINT
+
+	yesterday Close Price : 3365.7
+
+	TDB yesterday Close Price : 3367.45
+
+	SMA_30 : 3220.436666666666
+
+	-------------next stock_sym-------------
+
+
+	-------------all stock_sym parsed-------------
+

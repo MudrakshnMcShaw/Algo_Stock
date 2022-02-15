@@ -6,7 +6,7 @@ import pandas as pd
 # import get_sym
 import datetime
 import calendar
-from pydataLogger import logData # Used for logging strategy outputs
+# from dataLogger import logData # Used for logging strategy outputs
 import ssl
 from configparser import ConfigParser
  
@@ -167,7 +167,7 @@ class algoLogic:
 
         while(endDate>=startDate):
 
-            print(startDate)
+            # print(startDate)
             if startDate.weekday()==5 or startDate.weekday()==6:
                 startDate+= datetime.timedelta(days=1)
                 continue
@@ -181,6 +181,8 @@ class algoLogic:
 
             self.timeData = startDateTime.timestamp()
 
+            logging.info('\n\t'+ f'-------------date : {startDate}-------------\n')
+
             
             fileName = r'./data/ignore/'
             for stock_sym in stock_list[:2]:
@@ -189,24 +191,33 @@ class algoLogic:
                 index = df.index[df['Date']==startDate.strftime("%Y-%m-%d")].item()
                 SMA_30 = df.loc[index-30:index-1,'Close Price'].mean()
 
-                print(stock_sym)
-                print(df.loc[index-1,'Close Price'])
-                print(df.loc[index-2,'Close Price'])
-                print(SMA_30)
-                print("*"*10)
+                # print(stock_sym)
+                # print(df.loc[index-1,'Close Price'])
+                # print(df.loc[index-2,'Close Price'])
+                # print(SMA_30)
+                # print("*"*10)
+
+                logging.info('\n\t'+ f'stock_sym : {stock_sym}')
+                logging.info('\n\t'+ f'yesterday Close Price : {df.loc[index-1,"Close Price"]}')
+                logging.info('\n\t'+ f'TDB yesterday Close Price : {df.loc[index-2,"Close Price"]}')
+                logging.info('\n\t'+ f'SMA_30 : {SMA_30}')
 
                 if(df.loc[index-1,'Close Price']>SMA_30 and df.loc[index-2,'Close Price']<SMA_30):
                     data = df.loc[index,:]
                     entry_price = data['High Price']
+                    logging.info('\n\t'+ f'action : enter buy order : {entry_price}')
                     stockprice = self.entryOrder(data = data, entry_price=entry_price, symbol=stock_sym,
                                                     quantity=1,entrySide='BUY',index=-1)
                 
                 if(df.loc[index-1,'Close Price']<SMA_30 and df.loc[index-2,'Close Price']>SMA_30):
                     data = df.loc[index,:]
                     entry_price = data['Low Price']
+                    logging.info('\n\t'+ f'action : enter sell order : {entry_price}')
                     stockprice = self.entryOrder(data = data, entry_price=entry_price, symbol=stock_sym,
                                                     quantity=1,entrySide='SELL',index=-1)
-
+                
+                logging.info('\n\t'+ f'-------------next stock_sym-------------\n')
+            logging.info('\n\t'+ f'-------------all stock_sym parsed-------------\n')
             #udpating openposition
             if not self.openPnl.empty:
                 
@@ -236,16 +247,16 @@ class algoLogic:
                 drop_index = []
                 for index0,row0 in self.openPnl.iterrows():
                     
-                    print(self.openPnl.loc[index0])
+                    # print(self.openPnl.loc[index0])
                     stock_sym = row0['Symbol']
                     df = pd.read_csv(fileName+stock_sym+'.csv')
                     index = df.index[df['Date']==startDate.strftime("%Y-%m-%d")].item()
                     SMA_30 = df.loc[index-30:index-1,'Close Price'].mean()
-                    print(SMA_30)
+                    # print(SMA_30)
                     
                     if(row0['PositionStatus']==-1 and row0['current_h'] > SMA_30):
                         
-                        # logData(f'action : exiting sell order {row0["Symbol"]}')
+                        logging.info('\t'+ f'action : exiting sell order {row0["Symbol"]}')
                         exitReason = "exiting sell order"
                         self.closedPnl.loc[len(self.closedPnl)] = [row0['Key']] + [datetime.datetime.fromtimestamp(self.timeData)] +[row0['Symbol']]+\
                                                 [row0['EntryPrice']]+\
@@ -257,7 +268,7 @@ class algoLogic:
                     
                     elif(row0['PositionStatus']==1 and row0['current_l'] < SMA_30):
                         
-                        # logData(f'action : exiting buy order {row0["Symbol"]}')
+                        logging.info('\t'+ f'action : exiting buy order {row0["Symbol"]}')
                         exitReason = "exiting buy order"
                         self.closedPnl.loc[len(self.closedPnl)] = [row0['Key']] + [datetime.datetime.fromtimestamp(self.timeData)] +[row0['Symbol']]+\
                                                 [row0['EntryPrice']]+\
@@ -269,6 +280,9 @@ class algoLogic:
                 
                 self.openPnl.drop(drop_index,inplace=True)
             
+            if not self.openPnl.empty:
+                logging.info('\t'+ f'EOD openPnl : ')
+                logging.info('\t'+ self.openPnl.to_string().replace('\n', '\n\t'))
             #pnl calculation
             self.pnlCalculator()
             self.unrealizedPnl = self.openPnl['Pnl'].sum()
