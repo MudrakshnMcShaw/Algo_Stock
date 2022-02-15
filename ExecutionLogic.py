@@ -181,7 +181,7 @@ class algoLogic:
 
             self.timeData = startDateTime.timestamp()
 
-            logging.info('\n\t'+ f'--------------------------------date : {startDate}-----------------------------------\n')
+            logging.info('\n'+ f'--------------------------------date : {startDate}-----------------------------------\n')
 
             
             fileName = r'./data/ignore/'
@@ -197,28 +197,28 @@ class algoLogic:
                 # print(SMA_30)
                 # print("*"*10)
 
-                # logging.info('\n\t'+ f'stock_sym : {stock_sym}')
-                # logging.info('\n\t'+ f'yesterday Close Price : {df.loc[index-1,"Close Price"]}')
-                # logging.info('\n\t'+ f'TDB yesterday Close Price : {df.loc[index-2,"Close Price"]}')
-                # logging.info('\n\t'+ f'SMA_30 : {SMA_30}')
+                # logging.info('\n'+ f'stock_sym : {stock_sym}')
+                # logging.info('\n'+ f'yesterday Close Price : {df.loc[index-1,"Close Price"]}')
+                # logging.info('\n'+ f'TDB yesterday Close Price : {df.loc[index-2,"Close Price"]}')
+                # logging.info('\n'+ f'SMA_30 : {SMA_30}')
 
                 if(df.loc[index-1,'Close Price']>SMA_30 and df.loc[index-2,'Close Price']<SMA_30):
                     data = df.loc[index,:]
                     entry_price = data['Close Price']
-                    logging.info('\t'+ f'action : enter buy order : {data["Symbol"]}-----yesterday_c : {df.loc[index-1,"Close Price"]}-----SMA_30 : {SMA_30}-----DT_yesterday_c : {df.loc[index-2,"Close Price"]}')
+                    logging.info(''+ f'action : enter buy order : {data["Symbol"]}-----yesterday_c : {df.loc[index-1,"Close Price"]}-----SMA_30 : {SMA_30}-----DT_yesterday_c : {df.loc[index-2,"Close Price"]}')
                     stockprice = self.entryOrder(data = data, entry_price=entry_price, symbol=stock_sym,
                                                     quantity=1,entrySide='BUY',index=-1)
                 
                 # if(df.loc[index-1,'Close Price']<SMA_30 and df.loc[index-2,'Close Price']>SMA_30):
                 #     data = df.loc[index,:]
                 #     entry_price = data['Low Price']
-                #     logging.info('\n\t'+ f'action : enter sell order : {entry_price}')
+                #     logging.info('\n'+ f'action : enter sell order : {entry_price}')
                 #     stockprice = self.entryOrder(data = data, entry_price=entry_price, symbol=stock_sym,
                 #                                     quantity=1,entrySide='SELL',index=-1)
                 
-                # logging.info('\n\t'+ f'-------------next stock_sym-------------\n')
+                # logging.info('\n'+ f'-------------next stock_sym-------------\n')
            
-            logging.info('\n\t'+ f'-------------all stock_sym parsed-------------\n')
+            logging.info('\n'+ f'-------------all stock_sym parsed-------------\n')
             #udpating openposition
             if not self.openPnl.empty:
                 
@@ -257,7 +257,7 @@ class algoLogic:
                     
                     if(row0['PositionStatus']==1 and row0['current_c'] < SMA_30 and df.loc[index-1,'Close Price'] > SMA_30):
                         
-                        logging.info('\t'+ f'action : exiting buy order {row0["Symbol"]}-----today_c : {row0["current_c"]}-----SMA_30 : {SMA_30}-----yesterday_c : {df.loc[index-1,"Close Price"]}')
+                        logging.info(''+ f'action : exiting buy order {row0["Symbol"]}-----today_c : {row0["current_c"]}-----SMA_30 : {SMA_30}-----yesterday_c : {df.loc[index-1,"Close Price"]}')
                         exitReason = "exiting buy order"
                         self.closedPnl.loc[len(self.closedPnl)] = [row0['Key']] + [datetime.datetime.fromtimestamp(self.timeData)] +[row0['Symbol']]+\
                                                 [row0['EntryPrice']]+\
@@ -270,8 +270,8 @@ class algoLogic:
                 self.openPnl.drop(drop_index,inplace=True)
             
             if not self.openPnl.empty:
-                logging.info('\t'+ f'EOD openPnl : ')
-                logging.info('\t'+ self.openPnl.to_string().replace('\n', '\n\t'))
+                logging.info(''+ f'EOD openPnl : ')
+                logging.info(''+ self.openPnl.to_string().replace('\n', '\n'))
             #pnl calculation
             self.pnlCalculator()
             self.unrealizedPnl = self.openPnl['Pnl'].sum()
@@ -280,9 +280,9 @@ class algoLogic:
                 self.realizedPnl = self.closedPnl['Pnl'].sum()
                 self.netPnl = self.unrealizedPnl+self.realizedPnl
             
-            logging.info('\t' + f'Current Unrealized Pnl: {self.unrealizedPnl}')
-            logging.info('\t' + f'Current Realized Pnl: {self.realizedPnl}')
-            logging.info('\t' + f'Current Net Pnl: {self.netPnl}')
+            logging.info('' + f'Current Unrealized Pnl: {self.unrealizedPnl}')
+            logging.info('' + f'Current Realized Pnl: {self.realizedPnl}')
+            logging.info('' + f'Current Net Pnl: {self.netPnl}')
 
             startDate+= datetime.timedelta(days=1)
 
@@ -294,7 +294,7 @@ class algoLogic:
         endDateTimeEpoch = int(datetime.datetime(endDatetime.year, endDatetime.month, endDatetime.day, endDatetime.hour,endDatetime.minute,0).timestamp())
 
 
-        logging.info('\t' + f'---------------------End of day {endDatetime}--------------------------------------')
+        logging.info('' + f'---------------------End of day {endDatetime}--------------------------------------')
         
         if not self.openPnl.empty:
 
@@ -314,7 +314,7 @@ class algoLogic:
                 
                 except Exception as e:
                     print(e)
-                    logging.info('\n\t'+ f'{e}')
+                    logging.info('\n'+ f'{e}')
 
             for index, row in self.openPnl.iterrows():
                 self.closedPnl.loc[len(self.closedPnl)] = [row['Key']] + [datetime.datetime.fromtimestamp(endDateTimeEpoch)] +[row['Symbol']]+\
@@ -322,7 +322,7 @@ class algoLogic:
                                                                 [row['current_c']]+\
                                                                 [row['PositionStatus']*row['Quantity']]+\
                                                                 [0]+['Time up']
-                logging.info('\n\t' + f'Action : Liquidating all open position')
+                logging.info('\n' + f'Action : Liquidating all open position')
 
             self.pnlCalculator()
             self.closedPnl.to_csv(self.writeFileLocation + 'stock_closePosition.csv')
@@ -338,9 +338,9 @@ class algoLogic:
             self.realizedPnl = self.closedPnl['Pnl'].sum()
             self.netPnl = self.unrealizedPnl+self.realizedPnl
         
-        logging.info('\t' + f'Current Unrealized Pnl: {self.unrealizedPnl}')
-        logging.info('\t' + f'Current Realized Pnl: {self.realizedPnl}')
-        logging.info('\t' + f'Current Net Pnl: {self.netPnl}')
+        logging.info('' + f'Current Unrealized Pnl: {self.unrealizedPnl}')
+        logging.info('' + f'Current Realized Pnl: {self.realizedPnl}')
+        logging.info('' + f'Current Net Pnl: {self.netPnl}')
 
     
 if __name__ == "__main__":

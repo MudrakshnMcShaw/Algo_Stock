@@ -2,380 +2,380 @@
 -----------------------------New start-----------------------
 
 
-	--------------------------------date : 2021-12-01-----------------------------------
-
-	action : enter buy order : NESTLEIND-----yesterday_c : 19152.55-----SMA_30 : 19105.06666666667-----DT_yesterday_c : 19000.4
-	action : enter buy order : TCS-----yesterday_c : 3529.15-----SMA_30 : 3502.3949999999995-----DT_yesterday_c : 3502.0
-	action : enter buy order : TECHM-----yesterday_c : 1541.45-----SMA_30 : 1541.41-----DT_yesterday_c : 1536.65
-
-	-------------all stock_sym parsed-------------
-
-	EOD openPnl : 
-	                  Key     Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus Pnl
-	0 2021-12-01 09:20:00  NESTLEIND     19397.8    19161.9    19397.8    19449.9        1              1   0
-	1 2021-12-01 09:20:00        TCS      3577.8     3535.0     3577.8     3590.0        1              1   0
-	2 2021-12-01 09:20:00      TECHM      1587.6     1550.0     1587.6     1594.4        1              1   0
-	Current Unrealized Pnl: 0.0
-	Current Realized Pnl: 0
-	Current Net Pnl: 0
-
-	--------------------------------date : 2021-12-02-----------------------------------
-
-	action : enter buy order : TECHM-----yesterday_c : 1587.6-----SMA_30 : 1545.008333333333-----DT_yesterday_c : 1541.45
-
-	-------------all stock_sym parsed-------------
-
-	EOD openPnl : 
-	                  Key     Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus  Pnl
-	0 2021-12-01 09:20:00  NESTLEIND    19397.80   19226.75   19503.20    19650.0        1              1  0.0
-	1 2021-12-01 09:20:00        TCS     3577.80    3574.10    3642.90     3648.0        1              1  0.0
-	2 2021-12-01 09:20:00      TECHM     1587.60    1580.00    1629.65     1632.5        1              1  0.0
-	3 2021-12-02 09:20:00      TECHM     1629.65    1580.00    1629.65     1632.5        1              1    0
-	Current Unrealized Pnl: 212.55000000000155
-	Current Realized Pnl: 0
-	Current Net Pnl: 0
-
-	--------------------------------date : 2021-12-03-----------------------------------
-
-	action : enter buy order : ADANIPORTS-----yesterday_c : 739.1-----SMA_30 : 732.1316666666665-----DT_yesterday_c : 707.95
-	action : enter buy order : HCLTECH-----yesterday_c : 1184.7-----SMA_30 : 1160.5649999999998-----DT_yesterday_c : 1156.7
-	action : enter buy order : HDFCLIFE-----yesterday_c : 705.3-----SMA_30 : 695.6066666666667-----DT_yesterday_c : 693.85
-	action : enter buy order : INFY-----yesterday_c : 1748.25-----SMA_30 : 1731.841666666667-----DT_yesterday_c : 1714.9
-	action : enter buy order : SBILIFE-----yesterday_c : 1188.05-----SMA_30 : 1166.4650000000001-----DT_yesterday_c : 1164.85
-
-	-------------all stock_sym parsed-------------
-
-	action : exiting buy order HDFCLIFE-----today_c : 690.95-----SMA_30 : 695.6066666666667-----yesterday_c : 705.3
-	action : exiting buy order SBILIFE-----today_c : 1165.95-----SMA_30 : 1166.4650000000001-----yesterday_c : 1188.05
-	EOD openPnl : 
-	                  Key      Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus    Pnl
-	0 2021-12-01 09:20:00   NESTLEIND    19397.80   19137.00   19321.35   19498.80        1              1  105.4
-	1 2021-12-01 09:20:00         TCS     3577.80    3630.85    3640.45    3665.95        1              1   65.1
-	2 2021-12-01 09:20:00       TECHM     1587.60    1589.70    1593.30    1638.25        1              1  42.05
-	3 2021-12-02 09:20:00       TECHM     1629.65    1589.70    1593.30    1638.25        1              1    0.0
-	4 2021-12-03 09:20:00  ADANIPORTS      737.45     734.00     737.45     746.50        1              1      0
-	5 2021-12-03 09:20:00     HCLTECH     1171.40    1169.65    1171.40    1189.70        1              1      0
-	7 2021-12-03 09:20:00        INFY     1735.55    1732.55    1735.55    1786.65        1              1      0
-	Current Unrealized Pnl: -44.45000000000118
-	Current Realized Pnl: 0.0
-	Current Net Pnl: -44.45000000000118
-
-	--------------------------------date : 2021-12-06-----------------------------------
-
-
-	-------------all stock_sym parsed-------------
-
-	action : exiting buy order NESTLEIND-----today_c : 19016.5-----SMA_30 : 19109.659999999996-----yesterday_c : 19321.35
-	action : exiting buy order ADANIPORTS-----today_c : 723.45-----SMA_30 : 730.2166666666667-----yesterday_c : 737.45
-	action : exiting buy order HCLTECH-----today_c : 1136.55-----SMA_30 : 1158.515-----yesterday_c : 1171.4
-	action : exiting buy order INFY-----today_c : 1695.3-----SMA_30 : 1729.6150000000002-----yesterday_c : 1735.55
-	EOD openPnl : 
-	                  Key Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus    Pnl
-	1 2021-12-01 09:20:00    TCS     3577.80    3522.00    3536.40    3658.00        1              1  62.65
-	2 2021-12-01 09:20:00  TECHM     1587.60    1546.85    1551.75    1619.55        1              1    5.7
-	3 2021-12-02 09:20:00  TECHM     1629.65    1546.85    1551.75    1619.55        1              1 -36.35
-	Current Unrealized Pnl: -155.1500000000001
-	Current Realized Pnl: -470.3999999999994
-	Current Net Pnl: -625.5499999999995
-
-	--------------------------------date : 2021-12-07-----------------------------------
-
-
-	-------------all stock_sym parsed-------------
-
-	EOD openPnl : 
-	                  Key Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus    Pnl
-	1 2021-12-01 09:20:00    TCS     3577.80     3524.3    3584.50    3598.00        1              1  -41.4
-	2 2021-12-01 09:20:00  TECHM     1587.60     1536.0    1576.65    1581.35        1              1 -35.85
-	3 2021-12-02 09:20:00  TECHM     1629.65     1536.0    1576.65    1581.35        1              1  -77.9
-	Current Unrealized Pnl: -57.25
-	Current Realized Pnl: -470.3999999999994
-	Current Net Pnl: -527.6499999999994
-
-	--------------------------------date : 2021-12-08-----------------------------------
-
-	action : enter buy order : ADANIPORTS-----yesterday_c : 744.7-----SMA_30 : 727.7833333333333-----DT_yesterday_c : 723.45
-	action : enter buy order : NESTLEIND-----yesterday_c : 19344.25-----SMA_30 : 19113.690000000002-----DT_yesterday_c : 19016.5
-	action : enter buy order : TECHM-----yesterday_c : 1576.65-----SMA_30 : 1552.7166666666667-----DT_yesterday_c : 1551.75
-
-	-------------all stock_sym parsed-------------
-
-	EOD openPnl : 
-	                  Key Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus    Pnl
-	1 2021-12-01 09:20:00    TCS      3577.8    3601.00     3626.9    3646.45        1              1    6.7
-	2 2021-12-01 09:20:00  TECHM      1587.6    1582.05     1604.8    1614.80        1              1 -10.95
-	3 2021-12-08 09:20:00  TECHM      1604.8    1582.05     1604.8    1614.80        1              1      0
-	Current Unrealized Pnl: 66.29999999999995
-	Current Realized Pnl: -470.3999999999994
-	Current Net Pnl: -404.09999999999945
-
-	--------------------------------date : 2021-12-09-----------------------------------
-
-	action : enter buy order : BAJFINANCE-----yesterday_c : 7361.5-----SMA_30 : 7335.681666666666-----DT_yesterday_c : 7103.15
-	action : enter buy order : HCLTECH-----yesterday_c : 1171.6-----SMA_30 : 1154.7716666666668-----DT_yesterday_c : 1149.65
-	action : enter buy order : HDFCBANK-----yesterday_c : 1553.8-----SMA_30 : 1551.6933333333336-----DT_yesterday_c : 1525.7
-	action : enter buy order : HINDALCO-----yesterday_c : 457.45-----SMA_30 : 451.00500000000005-----DT_yesterday_c : 442.5
-	action : enter buy order : INFY-----yesterday_c : 1753.35-----SMA_30 : 1728.9250000000002-----DT_yesterday_c : 1711.65
-	action : enter buy order : JSWSTEEL-----yesterday_c : 672.95-----SMA_30 : 663.7183333333334-----DT_yesterday_c : 660.65
-	action : enter buy order : SBILIFE-----yesterday_c : 1169.5-----SMA_30 : 1167.1033333333332-----DT_yesterday_c : 1159.15
-	action : enter buy order : TATAMOTORS-----yesterday_c : 493.9-----SMA_30 : 491.2233333333333-----DT_yesterday_c : 481.8
-
-	-------------all stock_sym parsed-------------
-
-	EOD openPnl : 
-	                  Key      Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus   Pnl
-	1 2021-12-01 09:20:00         TCS     3577.80    3566.00    3601.75    3634.75        1              1  49.1
-	2 2021-12-01 09:20:00       TECHM     1587.60    1585.00    1611.20    1620.00        1              1  17.2
-	3 2021-12-09 09:20:00  TATAMOTORS      493.95     489.55     493.95     498.50        1              1     0
-	Current Unrealized Pnl: 47.549999999999955
-	Current Realized Pnl: -470.3999999999994
-	Current Net Pnl: -422.84999999999945
-
-	--------------------------------date : 2021-12-10-----------------------------------
-
-	action : enter buy order : ASIANPAINT-----yesterday_c : 3178.7-----SMA_30 : 3139.520000000001-----DT_yesterday_c : 3108.5
-	action : enter buy order : BRITANNIA-----yesterday_c : 3623.9-----SMA_30 : 3619.8533333333326-----DT_yesterday_c : 3575.75
-	action : enter buy order : ITC-----yesterday_c : 235.4-----SMA_30 : 228.23666666666662-----DT_yesterday_c : 224.95
-	action : enter buy order : LT-----yesterday_c : 1879.8-----SMA_30 : 1855.7516666666668-----DT_yesterday_c : 1825.05
-	action : enter buy order : UPL-----yesterday_c : 742.2-----SMA_30 : 732.1083333333333-----DT_yesterday_c : 728.1
-
-	-------------all stock_sym parsed-------------
-
-	EOD openPnl : 
-	                  Key Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus    Pnl
-	1 2021-12-01 09:20:00    TCS     3577.80    3575.10    3636.80    3642.00        1              1  23.95
-	2 2021-12-01 09:20:00  TECHM     1587.60    1578.55    1602.65    1611.20        1              1   23.6
-	3 2021-12-10 09:20:00    UPL      737.45     734.85     737.45     747.65        1              1      0
-	Current Unrealized Pnl: 74.05000000000018
-	Current Realized Pnl: -470.3999999999994
-	Current Net Pnl: -396.3499999999992
-
-	--------------------------------date : 2021-12-13-----------------------------------
-
-	action : enter buy order : BAJAJFINSV-----yesterday_c : 17711.1-----SMA_30 : 17636.411666666667-----DT_yesterday_c : 17596.6
-	action : enter buy order : SBILIFE-----yesterday_c : 1175.6-----SMA_30 : 1166.4-----DT_yesterday_c : 1161.35
-
-	-------------all stock_sym parsed-------------
-
-	EOD openPnl : 
-	                  Key   Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus    Pnl
-	1 2021-12-01 09:20:00      TCS     3577.80    3601.70    3609.65    3662.00        1              1   59.0
-	2 2021-12-01 09:20:00    TECHM     1587.60    1597.45    1638.15    1655.50        1              1  15.05
-	3 2021-12-13 09:20:00  SBILIFE     1186.65    1178.00    1186.65    1204.65        1              1      0
-	Current Unrealized Pnl: 82.40000000000009
-	Current Realized Pnl: -470.3999999999994
-	Current Net Pnl: -387.9999999999993
-
-	--------------------------------date : 2021-12-14-----------------------------------
-
-
-	-------------all stock_sym parsed-------------
-
-	EOD openPnl : 
-	                  Key   Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus    Pnl
-	1 2021-12-01 09:20:00      TCS     3577.80    3576.70    3623.80     3635.0        1              1  31.85
-	2 2021-12-01 09:20:00    TECHM     1587.60    1625.65    1642.70     1665.0        1              1  50.55
-	3 2021-12-13 09:20:00  SBILIFE     1186.65    1178.15    1188.55     1192.9        1              1    0.0
-	Current Unrealized Pnl: 103.0
-	Current Realized Pnl: -470.3999999999994
-	Current Net Pnl: -367.3999999999994
-
-	--------------------------------date : 2021-12-15-----------------------------------
-
-	action : enter buy order : AXISBANK-----yesterday_c : 710.9-----SMA_30 : 706.26-----DT_yesterday_c : 704.0
-	action : enter buy order : ICICIBANK-----yesterday_c : 758.65-----SMA_30 : 756.3266666666667-----DT_yesterday_c : 754.0
-	action : enter buy order : LT-----yesterday_c : 1865.7-----SMA_30 : 1863.5900000000004-----DT_yesterday_c : 1861.5
-	action : enter buy order : NESTLEIND-----yesterday_c : 19238.8-----SMA_30 : 19158.520000000004-----DT_yesterday_c : 18982.0
-	action : enter buy order : WIPRO-----yesterday_c : 646.9-----SMA_30 : 645.4783333333334-----DT_yesterday_c : 645.4
-
-	-------------all stock_sym parsed-------------
-
-	action : exiting buy order WIPRO-----today_c : 636.4-----SMA_30 : 645.4783333333334-----yesterday_c : 646.9
-	EOD openPnl : 
-	                  Key Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus   Pnl
-	1 2021-12-01 09:20:00    TCS      3577.8    3558.15    3570.35     3623.0        1              1  46.0
-	2 2021-12-01 09:20:00  TECHM      1587.6    1615.90    1641.60     1646.3        1              1  55.1
-	Current Unrealized Pnl: 46.54999999999973
-	Current Realized Pnl: -470.3999999999994
-	Current Net Pnl: -423.8499999999997
-
-	--------------------------------date : 2021-12-16-----------------------------------
-
-	action : enter buy order : LT-----yesterday_c : 1880.8-----SMA_30 : 1866.4383333333337-----DT_yesterday_c : 1865.7
-	action : enter buy order : MARUTI-----yesterday_c : 7567.95-----SMA_30 : 7539.004999999999-----DT_yesterday_c : 7493.15
-	action : enter buy order : TATAMOTORS-----yesterday_c : 491.65-----SMA_30 : 491.48333333333335-----DT_yesterday_c : 489.4
+--------------------------------date : 2021-12-01-----------------------------------
+
+action : enter buy order : NESTLEIND-----yesterday_c : 19152.55-----SMA_30 : 19105.06666666667-----DT_yesterday_c : 19000.4
+action : enter buy order : TCS-----yesterday_c : 3529.15-----SMA_30 : 3502.3949999999995-----DT_yesterday_c : 3502.0
+action : enter buy order : TECHM-----yesterday_c : 1541.45-----SMA_30 : 1541.41-----DT_yesterday_c : 1536.65
+
+-------------all stock_sym parsed-------------
+
+EOD openPnl : 
+                  Key     Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus Pnl
+0 2021-12-01 09:20:00  NESTLEIND     19397.8    19161.9    19397.8    19449.9        1              1   0
+1 2021-12-01 09:20:00        TCS      3577.8     3535.0     3577.8     3590.0        1              1   0
+2 2021-12-01 09:20:00      TECHM      1587.6     1550.0     1587.6     1594.4        1              1   0
+Current Unrealized Pnl: 0.0
+Current Realized Pnl: 0
+Current Net Pnl: 0
+
+--------------------------------date : 2021-12-02-----------------------------------
+
+action : enter buy order : TECHM-----yesterday_c : 1587.6-----SMA_30 : 1545.008333333333-----DT_yesterday_c : 1541.45
+
+-------------all stock_sym parsed-------------
+
+EOD openPnl : 
+                  Key     Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus  Pnl
+0 2021-12-01 09:20:00  NESTLEIND    19397.80   19226.75   19503.20    19650.0        1              1  0.0
+1 2021-12-01 09:20:00        TCS     3577.80    3574.10    3642.90     3648.0        1              1  0.0
+2 2021-12-01 09:20:00      TECHM     1587.60    1580.00    1629.65     1632.5        1              1  0.0
+3 2021-12-02 09:20:00      TECHM     1629.65    1580.00    1629.65     1632.5        1              1    0
+Current Unrealized Pnl: 212.55000000000155
+Current Realized Pnl: 0
+Current Net Pnl: 0
+
+--------------------------------date : 2021-12-03-----------------------------------
+
+action : enter buy order : ADANIPORTS-----yesterday_c : 739.1-----SMA_30 : 732.1316666666665-----DT_yesterday_c : 707.95
+action : enter buy order : HCLTECH-----yesterday_c : 1184.7-----SMA_30 : 1160.5649999999998-----DT_yesterday_c : 1156.7
+action : enter buy order : HDFCLIFE-----yesterday_c : 705.3-----SMA_30 : 695.6066666666667-----DT_yesterday_c : 693.85
+action : enter buy order : INFY-----yesterday_c : 1748.25-----SMA_30 : 1731.841666666667-----DT_yesterday_c : 1714.9
+action : enter buy order : SBILIFE-----yesterday_c : 1188.05-----SMA_30 : 1166.4650000000001-----DT_yesterday_c : 1164.85
+
+-------------all stock_sym parsed-------------
+
+action : exiting buy order HDFCLIFE-----today_c : 690.95-----SMA_30 : 695.6066666666667-----yesterday_c : 705.3
+action : exiting buy order SBILIFE-----today_c : 1165.95-----SMA_30 : 1166.4650000000001-----yesterday_c : 1188.05
+EOD openPnl : 
+                  Key      Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus    Pnl
+0 2021-12-01 09:20:00   NESTLEIND    19397.80   19137.00   19321.35   19498.80        1              1  105.4
+1 2021-12-01 09:20:00         TCS     3577.80    3630.85    3640.45    3665.95        1              1   65.1
+2 2021-12-01 09:20:00       TECHM     1587.60    1589.70    1593.30    1638.25        1              1  42.05
+3 2021-12-02 09:20:00       TECHM     1629.65    1589.70    1593.30    1638.25        1              1    0.0
+4 2021-12-03 09:20:00  ADANIPORTS      737.45     734.00     737.45     746.50        1              1      0
+5 2021-12-03 09:20:00     HCLTECH     1171.40    1169.65    1171.40    1189.70        1              1      0
+7 2021-12-03 09:20:00        INFY     1735.55    1732.55    1735.55    1786.65        1              1      0
+Current Unrealized Pnl: -44.45000000000118
+Current Realized Pnl: 0.0
+Current Net Pnl: -44.45000000000118
+
+--------------------------------date : 2021-12-06-----------------------------------
+
+
+-------------all stock_sym parsed-------------
+
+action : exiting buy order NESTLEIND-----today_c : 19016.5-----SMA_30 : 19109.659999999996-----yesterday_c : 19321.35
+action : exiting buy order ADANIPORTS-----today_c : 723.45-----SMA_30 : 730.2166666666667-----yesterday_c : 737.45
+action : exiting buy order HCLTECH-----today_c : 1136.55-----SMA_30 : 1158.515-----yesterday_c : 1171.4
+action : exiting buy order INFY-----today_c : 1695.3-----SMA_30 : 1729.6150000000002-----yesterday_c : 1735.55
+EOD openPnl : 
+                  Key Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus    Pnl
+1 2021-12-01 09:20:00    TCS     3577.80    3522.00    3536.40    3658.00        1              1  62.65
+2 2021-12-01 09:20:00  TECHM     1587.60    1546.85    1551.75    1619.55        1              1    5.7
+3 2021-12-02 09:20:00  TECHM     1629.65    1546.85    1551.75    1619.55        1              1 -36.35
+Current Unrealized Pnl: -155.1500000000001
+Current Realized Pnl: -470.3999999999994
+Current Net Pnl: -625.5499999999995
+
+--------------------------------date : 2021-12-07-----------------------------------
+
+
+-------------all stock_sym parsed-------------
+
+EOD openPnl : 
+                  Key Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus    Pnl
+1 2021-12-01 09:20:00    TCS     3577.80     3524.3    3584.50    3598.00        1              1  -41.4
+2 2021-12-01 09:20:00  TECHM     1587.60     1536.0    1576.65    1581.35        1              1 -35.85
+3 2021-12-02 09:20:00  TECHM     1629.65     1536.0    1576.65    1581.35        1              1  -77.9
+Current Unrealized Pnl: -57.25
+Current Realized Pnl: -470.3999999999994
+Current Net Pnl: -527.6499999999994
+
+--------------------------------date : 2021-12-08-----------------------------------
+
+action : enter buy order : ADANIPORTS-----yesterday_c : 744.7-----SMA_30 : 727.7833333333333-----DT_yesterday_c : 723.45
+action : enter buy order : NESTLEIND-----yesterday_c : 19344.25-----SMA_30 : 19113.690000000002-----DT_yesterday_c : 19016.5
+action : enter buy order : TECHM-----yesterday_c : 1576.65-----SMA_30 : 1552.7166666666667-----DT_yesterday_c : 1551.75
+
+-------------all stock_sym parsed-------------
+
+EOD openPnl : 
+                  Key Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus    Pnl
+1 2021-12-01 09:20:00    TCS      3577.8    3601.00     3626.9    3646.45        1              1    6.7
+2 2021-12-01 09:20:00  TECHM      1587.6    1582.05     1604.8    1614.80        1              1 -10.95
+3 2021-12-08 09:20:00  TECHM      1604.8    1582.05     1604.8    1614.80        1              1      0
+Current Unrealized Pnl: 66.29999999999995
+Current Realized Pnl: -470.3999999999994
+Current Net Pnl: -404.09999999999945
+
+--------------------------------date : 2021-12-09-----------------------------------
+
+action : enter buy order : BAJFINANCE-----yesterday_c : 7361.5-----SMA_30 : 7335.681666666666-----DT_yesterday_c : 7103.15
+action : enter buy order : HCLTECH-----yesterday_c : 1171.6-----SMA_30 : 1154.7716666666668-----DT_yesterday_c : 1149.65
+action : enter buy order : HDFCBANK-----yesterday_c : 1553.8-----SMA_30 : 1551.6933333333336-----DT_yesterday_c : 1525.7
+action : enter buy order : HINDALCO-----yesterday_c : 457.45-----SMA_30 : 451.00500000000005-----DT_yesterday_c : 442.5
+action : enter buy order : INFY-----yesterday_c : 1753.35-----SMA_30 : 1728.9250000000002-----DT_yesterday_c : 1711.65
+action : enter buy order : JSWSTEEL-----yesterday_c : 672.95-----SMA_30 : 663.7183333333334-----DT_yesterday_c : 660.65
+action : enter buy order : SBILIFE-----yesterday_c : 1169.5-----SMA_30 : 1167.1033333333332-----DT_yesterday_c : 1159.15
+action : enter buy order : TATAMOTORS-----yesterday_c : 493.9-----SMA_30 : 491.2233333333333-----DT_yesterday_c : 481.8
+
+-------------all stock_sym parsed-------------
+
+EOD openPnl : 
+                  Key      Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus   Pnl
+1 2021-12-01 09:20:00         TCS     3577.80    3566.00    3601.75    3634.75        1              1  49.1
+2 2021-12-01 09:20:00       TECHM     1587.60    1585.00    1611.20    1620.00        1              1  17.2
+3 2021-12-09 09:20:00  TATAMOTORS      493.95     489.55     493.95     498.50        1              1     0
+Current Unrealized Pnl: 47.549999999999955
+Current Realized Pnl: -470.3999999999994
+Current Net Pnl: -422.84999999999945
+
+--------------------------------date : 2021-12-10-----------------------------------
+
+action : enter buy order : ASIANPAINT-----yesterday_c : 3178.7-----SMA_30 : 3139.520000000001-----DT_yesterday_c : 3108.5
+action : enter buy order : BRITANNIA-----yesterday_c : 3623.9-----SMA_30 : 3619.8533333333326-----DT_yesterday_c : 3575.75
+action : enter buy order : ITC-----yesterday_c : 235.4-----SMA_30 : 228.23666666666662-----DT_yesterday_c : 224.95
+action : enter buy order : LT-----yesterday_c : 1879.8-----SMA_30 : 1855.7516666666668-----DT_yesterday_c : 1825.05
+action : enter buy order : UPL-----yesterday_c : 742.2-----SMA_30 : 732.1083333333333-----DT_yesterday_c : 728.1
+
+-------------all stock_sym parsed-------------
+
+EOD openPnl : 
+                  Key Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus    Pnl
+1 2021-12-01 09:20:00    TCS     3577.80    3575.10    3636.80    3642.00        1              1  23.95
+2 2021-12-01 09:20:00  TECHM     1587.60    1578.55    1602.65    1611.20        1              1   23.6
+3 2021-12-10 09:20:00    UPL      737.45     734.85     737.45     747.65        1              1      0
+Current Unrealized Pnl: 74.05000000000018
+Current Realized Pnl: -470.3999999999994
+Current Net Pnl: -396.3499999999992
+
+--------------------------------date : 2021-12-13-----------------------------------
+
+action : enter buy order : BAJAJFINSV-----yesterday_c : 17711.1-----SMA_30 : 17636.411666666667-----DT_yesterday_c : 17596.6
+action : enter buy order : SBILIFE-----yesterday_c : 1175.6-----SMA_30 : 1166.4-----DT_yesterday_c : 1161.35
+
+-------------all stock_sym parsed-------------
+
+EOD openPnl : 
+                  Key   Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus    Pnl
+1 2021-12-01 09:20:00      TCS     3577.80    3601.70    3609.65    3662.00        1              1   59.0
+2 2021-12-01 09:20:00    TECHM     1587.60    1597.45    1638.15    1655.50        1              1  15.05
+3 2021-12-13 09:20:00  SBILIFE     1186.65    1178.00    1186.65    1204.65        1              1      0
+Current Unrealized Pnl: 82.40000000000009
+Current Realized Pnl: -470.3999999999994
+Current Net Pnl: -387.9999999999993
+
+--------------------------------date : 2021-12-14-----------------------------------
+
+
+-------------all stock_sym parsed-------------
+
+EOD openPnl : 
+                  Key   Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus    Pnl
+1 2021-12-01 09:20:00      TCS     3577.80    3576.70    3623.80     3635.0        1              1  31.85
+2 2021-12-01 09:20:00    TECHM     1587.60    1625.65    1642.70     1665.0        1              1  50.55
+3 2021-12-13 09:20:00  SBILIFE     1186.65    1178.15    1188.55     1192.9        1              1    0.0
+Current Unrealized Pnl: 103.0
+Current Realized Pnl: -470.3999999999994
+Current Net Pnl: -367.3999999999994
+
+--------------------------------date : 2021-12-15-----------------------------------
+
+action : enter buy order : AXISBANK-----yesterday_c : 710.9-----SMA_30 : 706.26-----DT_yesterday_c : 704.0
+action : enter buy order : ICICIBANK-----yesterday_c : 758.65-----SMA_30 : 756.3266666666667-----DT_yesterday_c : 754.0
+action : enter buy order : LT-----yesterday_c : 1865.7-----SMA_30 : 1863.5900000000004-----DT_yesterday_c : 1861.5
+action : enter buy order : NESTLEIND-----yesterday_c : 19238.8-----SMA_30 : 19158.520000000004-----DT_yesterday_c : 18982.0
+action : enter buy order : WIPRO-----yesterday_c : 646.9-----SMA_30 : 645.4783333333334-----DT_yesterday_c : 645.4
+
+-------------all stock_sym parsed-------------
+
+action : exiting buy order WIPRO-----today_c : 636.4-----SMA_30 : 645.4783333333334-----yesterday_c : 646.9
+EOD openPnl : 
+                  Key Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus   Pnl
+1 2021-12-01 09:20:00    TCS      3577.8    3558.15    3570.35     3623.0        1              1  46.0
+2 2021-12-01 09:20:00  TECHM      1587.6    1615.90    1641.60     1646.3        1              1  55.1
+Current Unrealized Pnl: 46.54999999999973
+Current Realized Pnl: -470.3999999999994
+Current Net Pnl: -423.8499999999997
+
+--------------------------------date : 2021-12-16-----------------------------------
+
+action : enter buy order : LT-----yesterday_c : 1880.8-----SMA_30 : 1866.4383333333337-----DT_yesterday_c : 1865.7
+action : enter buy order : MARUTI-----yesterday_c : 7567.95-----SMA_30 : 7539.004999999999-----DT_yesterday_c : 7493.15
+action : enter buy order : TATAMOTORS-----yesterday_c : 491.65-----SMA_30 : 491.48333333333335-----DT_yesterday_c : 489.4
 
-	-------------all stock_sym parsed-------------
+-------------all stock_sym parsed-------------
 
-	EOD openPnl : 
-	                  Key      Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus   Pnl
-	1 2021-12-01 09:20:00         TCS     3577.80     3570.0    3581.60    3608.45        1              1 -7.45
-	2 2021-12-16 09:20:00  TATAMOTORS      491.95      487.4     491.95     496.50        1              1     0
-	Current Unrealized Pnl: 3.799999999999727
-	Current Realized Pnl: -470.3999999999994
-	Current Net Pnl: -466.5999999999997
+EOD openPnl : 
+                  Key      Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus   Pnl
+1 2021-12-01 09:20:00         TCS     3577.80     3570.0    3581.60    3608.45        1              1 -7.45
+2 2021-12-16 09:20:00  TATAMOTORS      491.95      487.4     491.95     496.50        1              1     0
+Current Unrealized Pnl: 3.799999999999727
+Current Realized Pnl: -470.3999999999994
+Current Net Pnl: -466.5999999999997
 
-	--------------------------------date : 2021-12-17-----------------------------------
+--------------------------------date : 2021-12-17-----------------------------------
 
-	action : enter buy order : HCLTECH-----yesterday_c : 1159.75-----SMA_30 : 1153.4816666666666-----DT_yesterday_c : 1148.9
-	action : enter buy order : INFY-----yesterday_c : 1771.6-----SMA_30 : 1739.6933333333332-----DT_yesterday_c : 1734.2
-	action : enter buy order : JSWSTEEL-----yesterday_c : 662.15-----SMA_30 : 661.635-----DT_yesterday_c : 658.5
+action : enter buy order : HCLTECH-----yesterday_c : 1159.75-----SMA_30 : 1153.4816666666666-----DT_yesterday_c : 1148.9
+action : enter buy order : INFY-----yesterday_c : 1771.6-----SMA_30 : 1739.6933333333332-----DT_yesterday_c : 1734.2
+action : enter buy order : JSWSTEEL-----yesterday_c : 662.15-----SMA_30 : 661.635-----DT_yesterday_c : 658.5
 
-	-------------all stock_sym parsed-------------
+-------------all stock_sym parsed-------------
 
-	action : exiting buy order JSWSTEEL-----today_c : 660.25-----SMA_30 : 661.635-----yesterday_c : 662.15
-	EOD openPnl : 
-	                  Key Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus  Pnl
-	1 2021-12-01 09:20:00    TCS      3577.8     3573.7    3584.35    3651.35        1              1  3.8
-	Current Unrealized Pnl: 6.549999999999727
-	Current Realized Pnl: -470.3999999999994
-	Current Net Pnl: -463.8499999999997
+action : exiting buy order JSWSTEEL-----today_c : 660.25-----SMA_30 : 661.635-----yesterday_c : 662.15
+EOD openPnl : 
+                  Key Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus  Pnl
+1 2021-12-01 09:20:00    TCS      3577.8     3573.7    3584.35    3651.35        1              1  3.8
+Current Unrealized Pnl: 6.549999999999727
+Current Realized Pnl: -470.3999999999994
+Current Net Pnl: -463.8499999999997
 
-	--------------------------------date : 2021-12-20-----------------------------------
+--------------------------------date : 2021-12-20-----------------------------------
 
-	action : enter buy order : WIPRO-----yesterday_c : 670.8-----SMA_30 : 645.1366666666668-----DT_yesterday_c : 644.3
+action : enter buy order : WIPRO-----yesterday_c : 670.8-----SMA_30 : 645.1366666666668-----DT_yesterday_c : 644.3
 
-	-------------all stock_sym parsed-------------
+-------------all stock_sym parsed-------------
 
-	EOD openPnl : 
-	                  Key Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus Pnl
-	1 2021-12-20 09:20:00  WIPRO      665.95      663.0     665.95      677.5        1              1   0
-	Current Unrealized Pnl: 0.0
-	Current Realized Pnl: -470.3999999999994
-	Current Net Pnl: -470.3999999999994
+EOD openPnl : 
+                  Key Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus Pnl
+1 2021-12-20 09:20:00  WIPRO      665.95      663.0     665.95      677.5        1              1   0
+Current Unrealized Pnl: 0.0
+Current Realized Pnl: -470.3999999999994
+Current Net Pnl: -470.3999999999994
 
-	--------------------------------date : 2021-12-21-----------------------------------
+--------------------------------date : 2021-12-21-----------------------------------
 
 
-	-------------all stock_sym parsed-------------
+-------------all stock_sym parsed-------------
 
-	EOD openPnl : 
-	                  Key Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus  Pnl
-	1 2021-12-20 09:20:00  WIPRO      665.95      671.0      690.8      697.1        1              1  0.0
-	Current Unrealized Pnl: 24.84999999999991
-	Current Realized Pnl: -470.3999999999994
-	Current Net Pnl: -445.5499999999995
+EOD openPnl : 
+                  Key Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus  Pnl
+1 2021-12-20 09:20:00  WIPRO      665.95      671.0      690.8      697.1        1              1  0.0
+Current Unrealized Pnl: 24.84999999999991
+Current Realized Pnl: -470.3999999999994
+Current Net Pnl: -445.5499999999995
 
-	--------------------------------date : 2021-12-22-----------------------------------
+--------------------------------date : 2021-12-22-----------------------------------
 
-	action : enter buy order : HINDALCO-----yesterday_c : 445.45-----SMA_30 : 444.55500000000006-----DT_yesterday_c : 433.1
-	action : enter buy order : NESTLEIND-----yesterday_c : 19220.5-----SMA_30 : 19200.26833333333-----DT_yesterday_c : 18881.25
-	action : enter buy order : SUNPHARMA-----yesterday_c : 778.55-----SMA_30 : 772.9083333333334-----DT_yesterday_c : 763.95
-	action : enter buy order : UPL-----yesterday_c : 733.65-----SMA_30 : 731.6733333333334-----DT_yesterday_c : 708.3
+action : enter buy order : HINDALCO-----yesterday_c : 445.45-----SMA_30 : 444.55500000000006-----DT_yesterday_c : 433.1
+action : enter buy order : NESTLEIND-----yesterday_c : 19220.5-----SMA_30 : 19200.26833333333-----DT_yesterday_c : 18881.25
+action : enter buy order : SUNPHARMA-----yesterday_c : 778.55-----SMA_30 : 772.9083333333334-----DT_yesterday_c : 763.95
+action : enter buy order : UPL-----yesterday_c : 733.65-----SMA_30 : 731.6733333333334-----DT_yesterday_c : 708.3
 
-	-------------all stock_sym parsed-------------
+-------------all stock_sym parsed-------------
 
-	EOD openPnl : 
-	                  Key Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus Pnl
-	1 2021-12-22 09:20:00    UPL       754.3      735.0      754.3      757.0        1              1   0
-	Current Unrealized Pnl: 0.0
-	Current Realized Pnl: -470.3999999999994
-	Current Net Pnl: -470.3999999999994
+EOD openPnl : 
+                  Key Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus Pnl
+1 2021-12-22 09:20:00    UPL       754.3      735.0      754.3      757.0        1              1   0
+Current Unrealized Pnl: 0.0
+Current Realized Pnl: -470.3999999999994
+Current Net Pnl: -470.3999999999994
 
-	--------------------------------date : 2021-12-23-----------------------------------
+--------------------------------date : 2021-12-23-----------------------------------
 
-	action : enter buy order : JSWSTEEL-----yesterday_c : 661.0-----SMA_30 : 658.3266666666666-----DT_yesterday_c : 658.3
-	action : enter buy order : LT-----yesterday_c : 1871.0-----SMA_30 : 1857.6600000000003-----DT_yesterday_c : 1827.55
+action : enter buy order : JSWSTEEL-----yesterday_c : 661.0-----SMA_30 : 658.3266666666666-----DT_yesterday_c : 658.3
+action : enter buy order : LT-----yesterday_c : 1871.0-----SMA_30 : 1857.6600000000003-----DT_yesterday_c : 1827.55
 
-	-------------all stock_sym parsed-------------
+-------------all stock_sym parsed-------------
 
-	EOD openPnl : 
-	                  Key Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus Pnl
-	1 2021-12-23 09:20:00     LT     1878.45     1862.1    1878.45    1887.85        1              1   0
-	Current Unrealized Pnl: 0.0
-	Current Realized Pnl: -470.3999999999994
-	Current Net Pnl: -470.3999999999994
-
-	--------------------------------date : 2021-12-24-----------------------------------
-
-	action : enter buy order : CIPLA-----yesterday_c : 909.75-----SMA_30 : 907.22-----DT_yesterday_c : 889.7
-	action : enter buy order : DRREDDY-----yesterday_c : 4694.8-----SMA_30 : 4649.094999999999-----DT_yesterday_c : 4648.5
-	action : enter buy order : POWERGRID-----yesterday_c : 208.35-----SMA_30 : 201.78166666666672-----DT_yesterday_c : 201.55
-
-	-------------all stock_sym parsed-------------
-
-	EOD openPnl : 
-	                  Key     Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus Pnl
-	1 2021-12-24 09:20:00  POWERGRID       205.4     204.85      205.4      208.7        1              1   0
-	Current Unrealized Pnl: 0.0
-	Current Realized Pnl: -470.3999999999994
-	Current Net Pnl: -470.3999999999994
-
-	--------------------------------date : 2021-12-27-----------------------------------
-
-
-	-------------all stock_sym parsed-------------
-
-	EOD openPnl : 
-	                  Key     Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus  Pnl
-	1 2021-12-24 09:20:00  POWERGRID       205.4      205.0      206.1     207.25        1              1  0.0
-	Current Unrealized Pnl: 0.6999999999999886
-	Current Realized Pnl: -470.3999999999994
-	Current Net Pnl: -469.6999999999994
-
-	--------------------------------date : 2021-12-28-----------------------------------
-
-	action : enter buy order : DRREDDY-----yesterday_c : 4736.9-----SMA_30 : 4639.673333333333-----DT_yesterday_c : 4638.65
-	action : enter buy order : NESTLEIND-----yesterday_c : 19302.35-----SMA_30 : 19234.78833333333-----DT_yesterday_c : 19224.2
-	action : enter buy order : SBILIFE-----yesterday_c : 1161.95-----SMA_30 : 1158.2233333333331-----DT_yesterday_c : 1148.2
-
-	-------------all stock_sym parsed-------------
-
-	EOD openPnl : 
-	                  Key   Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus Pnl
-	1 2021-12-28 09:20:00  SBILIFE      1177.6     1161.6     1177.6     1182.5        1              1   0
-	Current Unrealized Pnl: 0.0
-	Current Realized Pnl: -470.3999999999994
-	Current Net Pnl: -470.3999999999994
-
-	--------------------------------date : 2021-12-29-----------------------------------
-
-	action : enter buy order : JSWSTEEL-----yesterday_c : 657.35-----SMA_30 : 656.6366666666667-----DT_yesterday_c : 653.05
-	action : enter buy order : SHREECEM-----yesterday_c : 26716.8-----SMA_30 : 26367.926666666663-----DT_yesterday_c : 26295.2
-	action : enter buy order : TITAN-----yesterday_c : 2379.85-----SMA_30 : 2361.5733333333337-----DT_yesterday_c : 2331.3
-
-	-------------all stock_sym parsed-------------
-
-	EOD openPnl : 
-	                  Key Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus Pnl
-	1 2021-12-29 09:20:00  TITAN     2402.15    2370.35    2402.15    2416.45        1              1   0
-	Current Unrealized Pnl: 0.0
-	Current Realized Pnl: -470.3999999999994
-	Current Net Pnl: -470.3999999999994
-
-	--------------------------------date : 2021-12-30-----------------------------------
-
-	action : enter buy order : BRITANNIA-----yesterday_c : 3559.6-----SMA_30 : 3557.5766666666673-----DT_yesterday_c : 3550.65
-	action : enter buy order : EICHERMOT-----yesterday_c : 2562.25-----SMA_30 : 2488.4883333333332-----DT_yesterday_c : 2480.4
-	action : enter buy order : RELIANCE-----yesterday_c : 2402.5-----SMA_30 : 2399.9349999999995-----DT_yesterday_c : 2398.4
-	action : enter buy order : ULTRACEMCO-----yesterday_c : 7420.95-----SMA_30 : 7418.558333333333-----DT_yesterday_c : 7406.1
-
-	-------------all stock_sym parsed-------------
-
-	action : exiting buy order ULTRACEMCO-----today_c : 7397.2-----SMA_30 : 7418.558333333333-----yesterday_c : 7420.95
-	Current Unrealized Pnl: 0
-	Current Realized Pnl: -470.3999999999994
-	Current Net Pnl: -470.3999999999994
-
-	--------------------------------date : 2021-12-31-----------------------------------
-
-	action : enter buy order : HINDUNILVR-----yesterday_c : 2325.6-----SMA_30 : 2324.8183333333336-----DT_yesterday_c : 2306.85
-	action : enter buy order : NTPC-----yesterday_c : 126.9-----SMA_30 : 126.825-----DT_yesterday_c : 123.15
-	action : enter buy order : POWERGRID-----yesterday_c : 205.35-----SMA_30 : 204.98000000000005-----DT_yesterday_c : 204.6
-
-	-------------all stock_sym parsed-------------
-
-	action : exiting buy order NTPC-----today_c : 124.4-----SMA_30 : 126.825-----yesterday_c : 126.9
-	action : exiting buy order POWERGRID-----today_c : 204.4-----SMA_30 : 204.98000000000005-----yesterday_c : 205.35
-	EOD openPnl : 
-	                  Key      Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus Pnl
-	0 2021-12-31 09:20:00  HINDUNILVR     2360.15     2330.0    2360.15    2370.35        1              1   0
-	Current Unrealized Pnl: 0.0
-	Current Realized Pnl: -470.3999999999994
-	Current Net Pnl: -470.3999999999994
-	---------------------End of day 2021-12-31 15:30:00--------------------------------------
-
-	Action : Liquidating all open position
-	Current Unrealized Pnl: 0.0
-	Current Realized Pnl: -470.3999999999994
-	Current Net Pnl: -470.3999999999994
+EOD openPnl : 
+                  Key Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus Pnl
+1 2021-12-23 09:20:00     LT     1878.45     1862.1    1878.45    1887.85        1              1   0
+Current Unrealized Pnl: 0.0
+Current Realized Pnl: -470.3999999999994
+Current Net Pnl: -470.3999999999994
+
+--------------------------------date : 2021-12-24-----------------------------------
+
+action : enter buy order : CIPLA-----yesterday_c : 909.75-----SMA_30 : 907.22-----DT_yesterday_c : 889.7
+action : enter buy order : DRREDDY-----yesterday_c : 4694.8-----SMA_30 : 4649.094999999999-----DT_yesterday_c : 4648.5
+action : enter buy order : POWERGRID-----yesterday_c : 208.35-----SMA_30 : 201.78166666666672-----DT_yesterday_c : 201.55
+
+-------------all stock_sym parsed-------------
+
+EOD openPnl : 
+                  Key     Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus Pnl
+1 2021-12-24 09:20:00  POWERGRID       205.4     204.85      205.4      208.7        1              1   0
+Current Unrealized Pnl: 0.0
+Current Realized Pnl: -470.3999999999994
+Current Net Pnl: -470.3999999999994
+
+--------------------------------date : 2021-12-27-----------------------------------
+
+
+-------------all stock_sym parsed-------------
+
+EOD openPnl : 
+                  Key     Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus  Pnl
+1 2021-12-24 09:20:00  POWERGRID       205.4      205.0      206.1     207.25        1              1  0.0
+Current Unrealized Pnl: 0.6999999999999886
+Current Realized Pnl: -470.3999999999994
+Current Net Pnl: -469.6999999999994
+
+--------------------------------date : 2021-12-28-----------------------------------
+
+action : enter buy order : DRREDDY-----yesterday_c : 4736.9-----SMA_30 : 4639.673333333333-----DT_yesterday_c : 4638.65
+action : enter buy order : NESTLEIND-----yesterday_c : 19302.35-----SMA_30 : 19234.78833333333-----DT_yesterday_c : 19224.2
+action : enter buy order : SBILIFE-----yesterday_c : 1161.95-----SMA_30 : 1158.2233333333331-----DT_yesterday_c : 1148.2
+
+-------------all stock_sym parsed-------------
+
+EOD openPnl : 
+                  Key   Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus Pnl
+1 2021-12-28 09:20:00  SBILIFE      1177.6     1161.6     1177.6     1182.5        1              1   0
+Current Unrealized Pnl: 0.0
+Current Realized Pnl: -470.3999999999994
+Current Net Pnl: -470.3999999999994
+
+--------------------------------date : 2021-12-29-----------------------------------
+
+action : enter buy order : JSWSTEEL-----yesterday_c : 657.35-----SMA_30 : 656.6366666666667-----DT_yesterday_c : 653.05
+action : enter buy order : SHREECEM-----yesterday_c : 26716.8-----SMA_30 : 26367.926666666663-----DT_yesterday_c : 26295.2
+action : enter buy order : TITAN-----yesterday_c : 2379.85-----SMA_30 : 2361.5733333333337-----DT_yesterday_c : 2331.3
+
+-------------all stock_sym parsed-------------
+
+EOD openPnl : 
+                  Key Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus Pnl
+1 2021-12-29 09:20:00  TITAN     2402.15    2370.35    2402.15    2416.45        1              1   0
+Current Unrealized Pnl: 0.0
+Current Realized Pnl: -470.3999999999994
+Current Net Pnl: -470.3999999999994
+
+--------------------------------date : 2021-12-30-----------------------------------
+
+action : enter buy order : BRITANNIA-----yesterday_c : 3559.6-----SMA_30 : 3557.5766666666673-----DT_yesterday_c : 3550.65
+action : enter buy order : EICHERMOT-----yesterday_c : 2562.25-----SMA_30 : 2488.4883333333332-----DT_yesterday_c : 2480.4
+action : enter buy order : RELIANCE-----yesterday_c : 2402.5-----SMA_30 : 2399.9349999999995-----DT_yesterday_c : 2398.4
+action : enter buy order : ULTRACEMCO-----yesterday_c : 7420.95-----SMA_30 : 7418.558333333333-----DT_yesterday_c : 7406.1
+
+-------------all stock_sym parsed-------------
+
+action : exiting buy order ULTRACEMCO-----today_c : 7397.2-----SMA_30 : 7418.558333333333-----yesterday_c : 7420.95
+Current Unrealized Pnl: 0
+Current Realized Pnl: -470.3999999999994
+Current Net Pnl: -470.3999999999994
+
+--------------------------------date : 2021-12-31-----------------------------------
+
+action : enter buy order : HINDUNILVR-----yesterday_c : 2325.6-----SMA_30 : 2324.8183333333336-----DT_yesterday_c : 2306.85
+action : enter buy order : NTPC-----yesterday_c : 126.9-----SMA_30 : 126.825-----DT_yesterday_c : 123.15
+action : enter buy order : POWERGRID-----yesterday_c : 205.35-----SMA_30 : 204.98000000000005-----DT_yesterday_c : 204.6
+
+-------------all stock_sym parsed-------------
+
+action : exiting buy order NTPC-----today_c : 124.4-----SMA_30 : 126.825-----yesterday_c : 126.9
+action : exiting buy order POWERGRID-----today_c : 204.4-----SMA_30 : 204.98000000000005-----yesterday_c : 205.35
+EOD openPnl : 
+                  Key      Symbol  EntryPrice  current_l  current_c  current_h Quantity PositionStatus Pnl
+0 2021-12-31 09:20:00  HINDUNILVR     2360.15     2330.0    2360.15    2370.35        1              1   0
+Current Unrealized Pnl: 0.0
+Current Realized Pnl: -470.3999999999994
+Current Net Pnl: -470.3999999999994
+---------------------End of day 2021-12-31 15:30:00--------------------------------------
+
+Action : Liquidating all open position
+Current Unrealized Pnl: 0.0
+Current Realized Pnl: -470.3999999999994
+Current Net Pnl: -470.3999999999994
